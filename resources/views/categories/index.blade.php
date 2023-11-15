@@ -25,6 +25,9 @@
                 </div>
             @endforeach
         </div>
+         <div class="back">
+            <a href="/">戻る</a>
+        </div>
         <div class='paginate'>
             {{ $posts->links() }}
         </div>
